@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <div class="welcome">
+        <h1>
+            WELCOME TO JDAVYDS TIC_TAC_TOE
+        </h1>
+    
+        <p>
+            PLEASE INPUT YOUR NAMES
+        </p>
+    
+        <label for="player-1">
+            Player 1 <br>
+            <input type="text" name="player-1" class="player1-input">
+        </label>
+        <label for="player-2">
+            Player 2 <br>
+            <input type="text" name="player-2" class="player2-input">
+        </label>
+    
+            <button type="submit" class="submit">Play</button>
+        
+    </div>
+    
+
+   <section>
+
+       
+       <div class="weapon">
+           <h3>Select Your Weapon</h3>
+           <div class="select">
+               <label for="p1">
+                   
+                   <strong class="player1-label">
+                       
+                </strong>
+                <button type="submit" class="p1-X">X</button>
+                <button type="submit" class="p1-O">O</button>
+            </label>
+            <label for="p2">
+                <button type="submit" class="p2-X">X</button>
+                <button type="submit" class="p2-O">O</button>
+                <strong class="player2-label">
+                    
+                </strong>
+            </label>
+            
+        </div>
+    </div>
+    
+    <main>
+        
+        <div class="board">
+            
+            <div class="cell one"> </div>
+            <div class="cell two"> </div>
+            <div class="cell three"> </div>
+            <div class="cell four"> </div>
+            <div class="cell five"> </div>
+            <div class="cell six"> </div>
+            <div class="cell seven"> </div>
+            <div class="cell eight"> </div>
+            <div class="cell nine"> </div>
+            
+        </div>
+        <div>
+            <button type="reset" class="reset">Play Again</button>
+        </div>
+        <div class="scoreboard">
+            <p class="winner">
+                <!-- Win Remark -->
+            </p>
+            
+            <div class="score">
+                <label for="p1-score">
+                    <strong class="p1-score-label">
+                        
+                    </strong>
+                    <div class="p1-score">0</div> 
+                </label>
+                :
+                <label for="p2-score">
+                    <div class="p2-score">0</div>
+                    <strong class="p2-score-label">
+                        
+                    </strong>
+                </label>
+            </div>
+            
+        </div>
+        
+    </main>
+    
+</section>
+    
+</body>
+<script src="tic-tac-toe.js"></script>
+
+</html>

@@ -1,0 +1,58 @@
+.welcome {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInAnimation ease-in-out 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+p {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.welcome label {
+    margin: 20px;
+    width: 25%;
+}
+
+input {
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px 0 grey;
+    background: rgb(0, 255, 255, 0.2);
+    outline: none;
+}
+
+.welcome button {
+    font-size: 16px;
+    padding: 10px;
+    min-width: 100px;
+    background: aquamarine;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 grey;
+}
+.welcome button:hover {
+    font-size: 17;
+    background: hotpink;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+
+}
